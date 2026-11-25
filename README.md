@@ -214,3 +214,9 @@ make test
 - Logical chaining (`&&`, `||`, `;`) and stderr redirection (`2>`, `2>&1`).
 - Interactive line editing and persistent command history (`~/.mini_shell_history`).
 - Filename globbing (`*`, `?`) using `glob()`.
+
+## Limitations
+
+- No job control: fg, bg, jobs and background processes (&) are not supported.
+- Ctrl+Z is ignored, so foreground commands cannot be suspended.
+
