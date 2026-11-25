@@ -54,6 +54,7 @@ void setup_child_signals(void) {
 
     sigaction(SIGINT, &sa, NULL);
     sigaction(SIGQUIT, &sa, NULL);
+    sa.sa_handler = SIG_IGN;
     sigaction(SIGTSTP, &sa, NULL);
 }
 
