@@ -2,3 +2,7 @@
 bin/
 minishell
 *.out
+mini-shell
+mini-shell.zip
+*.o
+build/
