@@ -1,0 +1,10 @@
+# Build outputs
+build/
+mini-shell
+
+# Packaging and temporary test artifacts
+*.zip
+*.tar.gz
+*.o
+*.out
+tests/tmp_*
